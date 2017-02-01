@@ -2,7 +2,11 @@
 
 **F9 Corner Detection Library** is an open source implementation of the [FAST-9 corner detection algorithm](http://www.edwardrosten.com/work/fast.html), which avoids many re-allocations and tries to generally perform better.
 
+> **Note:** This code is pretty old, and only kept for reference. A more modern approach would probably involve using the GPU instead of doing everything on the CPU.
+
 The library consists of a single source file (__f9.cpp__) and a public header file (__f9.h__), and can be packaged as a static or shared library as well as built directly into your projects.
+
+**Update Feb, 1st 2017:** [@jwijffels](https://github.com/jwijffels) created an R package around this code, which you can find at https://github.com/bnosac/image.CornerDetectionF9
 
 ## API
 
